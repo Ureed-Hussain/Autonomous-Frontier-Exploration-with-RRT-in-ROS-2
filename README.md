@@ -86,7 +86,8 @@ Update the path in turtlebot3_world.launch.py.
 
 Launch as usual with:
 ```
-ros2 launch autonomous_explorer turtlebot3_world.launch.py
+ros2 launch autonomous_explorer autonomous_explorer_launch.py
+
 ```
 
 ## 🤖 Running on a Real TurtleBot3
