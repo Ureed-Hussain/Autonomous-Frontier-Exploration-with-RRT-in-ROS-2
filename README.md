@@ -72,6 +72,12 @@ ros2 run rviz2 rviz2 -d /opt/ros/humble/share/nav2_bringup/rviz/nav2_default_vie
 ```
 ros2 run autonomous_explorer explorer_node
 ```
+### Save the map
+```
+ros2 run nav2_map_server map_saver_cli -f my_map
+```
+You can provide an optional “-f” option to specify the path/name of the map. Make sure you don’t put any extension here, this will be done automatically.
+
 ## 🏠 Running in a Custom World
 
 Place your .world file in the world/ folder.
