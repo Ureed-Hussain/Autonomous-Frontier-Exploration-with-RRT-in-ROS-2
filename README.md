@@ -47,8 +47,9 @@ cd ~/ros2_ws
 colcon build
 source install/setup.bash
 ```
-
 ## 🌍 Running in Simulation
+![W1-MadewithClipchamp-ezgif com-video-to-gif-converter(2)](https://github.com/user-attachments/assets/e513dc62-b57e-48cc-aaf0-fa543ca65ef4)
+
 ### 1. Start the TurtleBot3 world in Gazebo
 
 ```
@@ -79,6 +80,9 @@ ros2 run nav2_map_server map_saver_cli -f my_map
 You can provide an optional “-f” option to specify the path/name of the map. Make sure you don’t put any extension here, this will be done automatically.
 
 ## 🏠 Running in a Custom World
+
+![W2-MadewithClipchamp-ezgif com-optimize](https://github.com/user-attachments/assets/5953d904-3511-4e6e-ba1e-a992fc852d0f)
+
 
 Place your .world file in the world/ folder.
 
